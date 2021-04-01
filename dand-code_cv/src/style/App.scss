@@ -1,17 +1,21 @@
+@import './variables.scss';
+@import '../index.scss';
 
 .App {
-  color: white;
+  display: grid;
+  // grid-template-rows: repeat(5, 1fr);
+  row-gap: 20px;
+  color: $font_color_main;
   height: 100vh;
   padding: 20px;
 }
 
 .App-header {
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $font_color_main;
   margin-bottom: 20px;
   height: 30vh;
 }
@@ -19,14 +23,11 @@
 .header_contact{
   display: block;
   font-style: italic;
-  color: #336633;
+  color: $font_color_second;
 }
 
 .main{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 1fr) ;
-  row-gap: 20px;
+  
 }
 
 .App-skills{

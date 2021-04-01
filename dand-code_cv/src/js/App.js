@@ -1,39 +1,40 @@
-
-import '../style/App.css';
+import Numbers from './Numbers';
+import '../style/App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p className="header_cv">&#60;CV&#62;</p>
-        <h1>Dandara Almeida</h1>
-        <h2>Front-end Developer</h2>
-        <h3 className="header_contact">
-          <span className="header_contact">
-            &#8260;&#8260; HTML, CSS, Javascript and React
-            </span>
-          <span className="header_contact">
-            &#8260;&#8260; dandara.avazquez@gmail.com
-            </span>
-          <span className="header_contact">
-            &#8260;&#8260; Github
-            </span>
-            
+       <Numbers />
+        <header className="App-header">
+          <p className="header_cv">&#60;CV&#62;</p>
+          <h1>Dandara Almeida</h1>
+          <h2>Front-end Developer</h2>
+          <h3 className="header_contact">
             <span className="header_contact">
-            &#8260;&#8260; Linkedin
+              &#8260;&#8260; HTML, CSS, Javascript and React
             </span>
-        </h3>
-      </header>
+            <span className="header_contact">
+              &#8260;&#8260; dandara.avazquez@gmail.com
+            </span>
+            <span className="header_contact">
+              &#8260;&#8260; Github
+            </span>
 
-      <main className="main">
-        <section>
+            <span className="header_contact">
+              &#8260;&#8260; Linkedin
+            </span>
+          </h3>
+        </header>
+
+
+        <main>
           <h2>about me </h2>
           <p>
             Soy desarrolladora front-end y periodista. Creo que hacer lo que me motiva es la clave para el éxito y por eso he dejado los 10 años que he pasado en las redaciones, por lo que me ha vuelto a apasionar: la experiencia del usuario y la programación.
           </p>
           <p>Mi principal objetivo es seguir aprendiendo para desarrollar códigos alineados con conceptos de accesibilidad para entregar contenidos y experiencias cada vez más más efectivos, para una audiencia cada vez más diversa.
           </p>
-        </section>
+        </main>
         <section>
           <h2>education</h2>
           <div>
@@ -141,13 +142,13 @@ function App() {
           </div>
           <p className="header_cv">&#60;CV&#62;</p>
         </section>
-      </main>
 
-      <footer>
-        by dand-code ©2021
+
+        <footer>
+          by dand-code ©2021
       </footer>
-    </div>
-  );
+      </div>
+  ); 
 }
 
 export default App;

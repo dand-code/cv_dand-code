@@ -3,7 +3,7 @@ import '../style/App.scss';
 function Education() {
     return (
         <section id="education">
-        <h2>education</h2>
+        <h2 className="subtitle">education</h2>
         <div className="margin_elements">
           <h3>Adalab</h3>
           <ul className="list">

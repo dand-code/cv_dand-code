@@ -3,7 +3,7 @@ import '../style/App.scss';
 function Projects() {
     return (
         <section>
-          <h2>projects</h2>
+          <h2 className="subtitle">projects</h2>
           <ul>
             <li>
               <h4>Search Ricky And Morty</h4>

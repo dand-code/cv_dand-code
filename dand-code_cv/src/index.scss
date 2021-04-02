@@ -1,12 +1,19 @@
 @import './style/variables.scss';
-*{
-  margin: 0;
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+  box-sizing: border-box;scroll-behavior: smooth;
+}
+
+:root{
+  font-size: calc(64px + (80 - 64) * (100vw - 320px)/(960 - 320));
 }
 
 body {
+  font-size: 0.5em;
+	line-height: 1.5;
   padding-top: 90px;
   margin: 0;
   font-family: $font_primary;

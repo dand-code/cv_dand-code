@@ -11,17 +11,13 @@ function App() {
 
   const modes = (ev) => {
     const body = document.body;
-      body.classList.toggle("light-mode");
-      
+      body.classList.toggle("light-mode");   
   }
 
   return (
     <>
       <div className="line">
-        <label className="switch">
-          <input type="checkbox" onChange={modes} />
-          <span className="slider round"></span>
-        </label>
+        <input className="l" type="checkbox" onChange={modes} />
       </div>
       <div className="App">
       <Menu />

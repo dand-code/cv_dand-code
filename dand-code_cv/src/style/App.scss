@@ -2,6 +2,10 @@
 @import '../index.scss';
 
 
+.subtitle{
+  text-transform: capitalize;
+}
+
 .line{
  position: fixed;
  top: 0;
@@ -38,6 +42,10 @@
     
   }
 }
+.header_cv {
+  font-size: 4em;
+  font-weight: bold;
+}
 
 .header_contact{
   display: block;
@@ -63,6 +71,11 @@
 .style-none:hover{
   color: $font_color_main;
   text-decoration:underline;
+}
+
+footer{
+  font-size: .8em;
+  text-align: right;
 }
 
 @media all and (min-width: 600px){

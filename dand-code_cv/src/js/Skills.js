@@ -3,9 +3,9 @@ import '../style/App.scss';
 function Skills() {
     return (
       <section id="skills">
-      <h2>skills</h2>
+      <h2 className="subtitle">skills</h2>
       <div className="margin_elements">
-        <h3>tecnicals</h3>
+        <h3>technicals</h3>
         <ul className="list">
           <li>&#8260;&#8260; HTML</li>
           <li>&#8260;&#8260; CSS</li>

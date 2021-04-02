@@ -1,35 +1,85 @@
 @import './variables.scss';
 @import '../index.scss';
 
-.App {
-  display: grid;
-  // grid-template-rows: repeat(5, 1fr);
-  row-gap: 20px;
-  color: $font_color_main;
-  height: 100vh;
-  padding: 20px;
+
+.line{
+ position: fixed;
+ top: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #1a2328;
+  display: block;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.App-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  font-size: calc(10px + 2vmin);
-  color: $font_color_main;
-  margin-bottom: 20px;
-  height: 30vh;
+.color-modes-toggle{
+  margin-right: 50px;
+  width: 60px;
+  height: 24px;
+  border-radius: 24px;
+  border: 3px solid $font_color_main;
+  background-color: $font_color_main;
+}
+
+.App {
+  display: grid;
+  row-gap: 20px;
+  height: 100vh;
+  padding: 20px;
+  font-size: calc(7px + 2vmin);
+  &_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    margin-bottom: 20px;
+    
+  }
 }
 
 .header_contact{
   display: block;
   font-style: italic;
+  font-size: calc(8px + 2vmin);
   color: $font_color_second;
 }
 
-.main{
-  
+.margin_elements{
+  margin: 15px 0;
 }
 
-.App-skills{
-  margin: 15px 0;
+.list{
+  list-style: none;
+  color: $font_color_second;
+  margin-top: 13px;
+}
+
+.style-none{
+  text-decoration: none;
+  color: $font_color_second;
+}
+.style-none:hover{
+  color: $font_color_main;
+  text-decoration:underline;
+}
+
+@media all and (min-width: 600px){
+  .App{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media all and (min-width: 768px){
+  .App{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media all and (min-width: 1200px){
+  .App{
+    padding-left: 150;
+    padding-right: 150;
+  }
 }

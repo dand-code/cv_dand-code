@@ -3,10 +3,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
+  padding-top: 90px;
   margin: 0;
   font-family: $font_primary;
   background-color: $page_bg;
+  color: $font_color_main;
+}
+
+.light-mode{
+  background-color: $font_color_main;
+  color: black;
 }

@@ -2,32 +2,32 @@ import '../style/App.scss';
 
 function Skills() {
     return (
-      <section>
+      <section id="skills">
       <h2>skills</h2>
-      <div className="App-skills">
+      <div className="margin_elements">
         <h3>tecnicals</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>React</li>
+        <ul className="list">
+          <li>&#8260;&#8260; HTML</li>
+          <li>&#8260;&#8260; CSS</li>
+          <li>&#8260;&#8260; Javascript</li>
+          <li>&#8260;&#8260; React</li>
         </ul>
       </div>
-      <div className="App-skills">
+      <div className="margin_elements">
         <h3>soft</h3>
-        <ul>
-          <li>Remote work</li>
-          <li>Comunication</li>
-          <li>Documentation</li>
-          <li>Team work</li>
+        <ul className="list">
+          <li>&#8260;&#8260; Remote work</li>
+          <li>&#8260;&#8260; Comunication</li>
+          <li>&#8260;&#8260; Documentation</li>
+          <li>&#8260;&#8260; Team work</li>
         </ul>
       </div>
-      <div className="App-skills">
+      <div className="margin_elements">
         <h3>language</h3>
-        <ul>
-          <li>Portuguese: native</li>
-          <li>Spanish: C1</li>
-          <li>English: A1</li>
+        <ul className="list">
+          <li>&#8260;&#8260; Portuguese: native</li>
+          <li>&#8260;&#8260; Spanish: C1</li>
+          <li>&#8260;&#8260; English: A1</li>
         </ul>
       </div>
     </section>

@@ -2,24 +2,24 @@ import '../style/App.scss';
 
 function Education() {
     return (
-        <section>
+        <section id="education">
         <h2>education</h2>
-        <div>
+        <div className="margin_elements">
           <h3>Adalab</h3>
-          <ul>
+          <ul className="list">
             <li>
-              Maquetación: HTML5, CSS3, Flexbox, CSS Grid, Sass, Bootstrap;</li>
-            <li>JavaScript y servicios web (APIs) de terceros;</li>
-            <li>Control de versiones con Git;</li>
-            <li>Creación de SPAs sencillas con React;</li>
-            <li>Manejo de Slack, Trello, GitHub, Gulp, Terminal, Linter, Zeplin;</li>
+            &#8260;&#8260; Maquetación: HTML5, CSS3, Flexbox, CSS Grid, Sass, Bootstrap;</li>
+            <li> &#8260;&#8260; JavaScript y servicios web (APIs) de terceros;</li>
+            <li> &#8260;&#8260; Control de versiones con Git;</li>
+            <li> &#8260;&#8260; Creación de SPAs sencillas con React;</li>
+            <li> &#8260;&#8260; Manejo de Slack, Trello, GitHub, Gulp, Terminal, Linter, Zeplin;</li>
           </ul>
         </div>
-        <div>
+        <div className="margin_elements">
           <h3>Universidade Federal do Pará (Brazil)</h3>
-          <ul>
+          <ul className="list">
             <li>
-              Journalism graduation
+            &#8260;&#8260; Journalism graduation
             </li>
           </ul>
         </div>

@@ -7,7 +7,7 @@ function Header() {
             <h2>Front-end Developer</h2>
             <h3 className="header_contact">
             <span className="header_contact">
-                    &#8260;&#8260; HTML, CSS, Javascript and React
+                   <span className="bars"></span>  HTML, CSS, Javascript and React
             </span>
             <span className="header_contact">
                     &#8260;&#8260; dandara.avazquez@gmail.com

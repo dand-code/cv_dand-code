@@ -1,5 +1,6 @@
 import Header from './Header';
 import Main from './Main';
+import About from './About';
 import Education from './Education';
 import Projects from './Projects';
 import Skills from './Skills';
@@ -14,6 +15,7 @@ function App() {
       <div className="App">
         <p className="cv">&#60;CV&#62;</p>
         <Main />
+        <About />
         <Education />
         <Projects />
         <Skills />

@@ -43,6 +43,7 @@
     
   }
 }
+//Main
 .cv {
   font-size: 4em;
   font-weight: bold;
@@ -55,6 +56,8 @@
   color: $font_color_second;
 }
 
+//Footer
+
 footer{
   font-size: .8em;
   text-align: right;
@@ -64,7 +67,14 @@ footer{
   .App{
     padding-left: 40px;
     padding-right: 40px;
+
   }
+  //Skills
+  .wrap_skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
 }
 @media all and (min-width: 768px){
   .App{

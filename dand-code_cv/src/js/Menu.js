@@ -15,7 +15,8 @@ function Menu() {
                 <li><a href="#aboutme">about</a></li>
                 <li><a href="#education">education</a></li>
                 <li><a href="#skills">skills</a></li>
-                <li><a href="#experiences">work experiences</a></li>
+                <li><a href="#skills">projects</a></li>
+                <li><a href="#experiences">work</a></li>
                 <li><a href="#header">contact</a></li>
             </ul>
             <button id="sidebar-btn" className="sidebar-btn" onClick={toggleSidebar}>

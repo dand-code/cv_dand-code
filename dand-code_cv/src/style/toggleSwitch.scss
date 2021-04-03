@@ -1,7 +1,7 @@
 
 
 input {
-	display: block;
+  display: block;
   margin-bottom: 1.5em;
   font-size: 0.5em;
   line-height: 1.5;
@@ -68,3 +68,10 @@ input {
 	/* Usually an anti-A11Y practice but set to remove an annoyance just for this demo */
 	outline: 0;
 }
+
+@media all and (min-width: 768px){
+    .l{
+     margin-right: 88px;
+    }
+   
+  }

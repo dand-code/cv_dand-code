@@ -13,6 +13,7 @@
 .sidebar ul{
   margin: 0;
   padding: 10px 0px;
+  font-size: 0.8em;
 }
 .sidebar ul li{
   list-style: none;
@@ -27,7 +28,7 @@
 }
 .sidebar-btn{
   position: absolute;
-  top: 10px;
+  top: 14px;
   right: -25%;
   width: 35px;
   height: 35px;
@@ -103,6 +104,7 @@
   @media all and (min-width: 768px){
     .sidebar-btn{
       top: 10px;
+      right: -54%;
       width: 50px;
       height: 50px;
     }

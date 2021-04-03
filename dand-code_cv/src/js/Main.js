@@ -2,14 +2,24 @@ import '../style/App.scss';
 
 function Main() {
     return (
-        <main id="aboutme">
-        <h2 className="subtitle">about me </h2>
-        <p className="margin_elements">
-          Soy desarrolladora front-end y periodista. Creo que hacer lo que me motiva es la clave para el éxito y por eso he dejado los 10 años que he pasado en las redaciones, por lo que me ha vuelto a apasionar: la experiencia del usuario y la programación.
-        </p>
-        <p className="margin_elements">Mi principal objetivo es seguir aprendiendo para desarrollar códigos alineados con conceptos de accesibilidad para entregar contenidos y experiencias cada vez más más efectivos, para una audiencia cada vez más diversa.
-        </p>
-      </main>
+        <main className="App-header" id="header">
+            <h1>Dandara Almeida</h1>
+            <h2>Front-end Developer</h2>
+            <h3 className="main_contact">
+                <span className="main_contact">
+                    <span className="bars"></span>  HTML, CSS, Javascript and React
+            </span>
+                <span className="main_contact">
+                    <a className="style-none" href="mailto:dandara.avazquez@gmail.com">&#8260;&#8260; dandara.avazquez@gmail.com</a>
+                </span>
+                <span className="main_contact">
+                    &#8260;&#8260; <a className="style-none" href="https://github.com/dand-code"> Github</a>
+                </span>
+                <span className="main_contact">
+                    &#8260;&#8260; <a className="style-none" href="https://www.linkedin.com/in/dandara-de-almeida/">Linkedin</a>
+                </span>
+            </h3>
+        </main>
     );
 }
 

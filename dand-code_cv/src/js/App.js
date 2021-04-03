@@ -1,35 +1,26 @@
-import Menu from './Menu';
 import Header from './Header';
 import Main from './Main';
 import Education from './Education';
+import Projects from './Projects';
 import Skills from './Skills';
 import Experiences from './Experiences';
 import '../style/App.scss';
 import '../style/toggleSwitch.scss';
 
 function App() {
-
-  const modes = (ev) => {
-    const body = document.body;
-      body.classList.toggle("light-mode");   
-  }
-
   return (
     <>
-      <div className="line">
-        <input className="l" type="checkbox" onChange={modes} />
-      </div>
+      <Header />
       <div className="App">
-      <Menu />
-        <p className="header_cv">&#60;CV&#62;</p>
-        <Header />
+        <p className="cv">&#60;CV&#62;</p>
         <Main />
         <Education />
+        <Projects />
         <Skills />
         <Experiences />
-        <p className="header_cv">&#60;/CV&#62;</p>
+        <p className="cv">&#60;/CV&#62;</p>
         <footer>
-        by dand-code ©2021
+          by dand-code ©2021
       </footer>
       </div>
     </>

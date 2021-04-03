@@ -1,32 +1,33 @@
 @import './variables.scss';
 @import '../index.scss';
 
-
+// general
 .subtitle{
   text-transform: capitalize;
 }
-
-.line{
- position: fixed;
- top: 0;
-  height: 10vh;
-  width: 100%;
-  background-color: #1a2328;
-  display: block;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.margin_elements{
+  margin: 15px 0;
+}
+.list{
+  list-style: none;
+  color: $font_color_second;
+  margin-top: 13px;
 }
 
-.color-modes-toggle{
-  margin-right: 50px;
-  width: 60px;
-  height: 24px;
-  border-radius: 24px;
-  border: 3px solid $font_color_main;
-  background-color: $font_color_main;
+.style-none{
+  text-decoration: none;
+  color: $font_color_second;
+}
+.style-none:hover{
+  color: $font_color_main;
+  text-decoration:underline;
 }
 
+.link{
+  color: orange;
+}
+
+// Page
 .App {
   display: grid;
   row-gap: 20px;
@@ -42,35 +43,16 @@
     
   }
 }
-.header_cv {
+.cv {
   font-size: 4em;
   font-weight: bold;
 }
 
-.header_contact{
+.main_contact{
   display: block;
   font-style: italic;
   font-size: calc(8px + 2vmin);
   color: $font_color_second;
-}
-
-.margin_elements{
-  margin: 15px 0;
-}
-
-.list{
-  list-style: none;
-  color: $font_color_second;
-  margin-top: 13px;
-}
-
-.style-none{
-  text-decoration: none;
-  color: $font_color_second;
-}
-.style-none:hover{
-  color: $font_color_main;
-  text-decoration:underline;
 }
 
 footer{

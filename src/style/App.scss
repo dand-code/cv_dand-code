@@ -19,12 +19,12 @@
   color: $font_color_second;
 }
 .style-none:hover{
-  color: orange;
+  color: $font_color_link;
   text-decoration:underline;
 }
 
 .link{
-  color: orange;
+  color: $font_color_link;
 }
 
 // Page
@@ -76,7 +76,7 @@ footer{
   .wrap_skills{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    place-items: center;
+    place-items:initial;
 }
 
 }

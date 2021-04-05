@@ -2,7 +2,7 @@ import '../style/App.scss';
 
 function Projects() {
   return (
-    <section>
+    <section id="projects">
       <h2 className="subtitle">projects</h2>
       <ul className="list">
         <li>

@@ -2,7 +2,7 @@ import '../style/App.scss';
 
 function Main() {
     return (
-        <main className="App-header" id="header">
+        <main className="App-header" id="main">
             <h1>Dandara Almeida</h1>
             <h2>Front-end Developer</h2>
             <h3 className="main_contact">

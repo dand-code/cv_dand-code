@@ -30,6 +30,8 @@
 // Page
 .App {
   display: grid;
+  grid-template-rows: 10% repeat(3, 1fr);
+  column-gap: 30px;
   row-gap: 20px;
   height: 100vh;
   padding: 20px;
@@ -43,6 +45,7 @@
     
   }
 }
+
 //Main
 .cv {
   font-size: 4em;
@@ -75,6 +78,7 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
 }
+
 }
 @media all and (min-width: 768px){
   .App{

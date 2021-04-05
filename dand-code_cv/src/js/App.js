@@ -9,10 +9,11 @@ import '../style/App.scss';
 import '../style/toggleSwitch.scss';
 
 function App() {
+
   return (
     <>
       <Header />
-      <div className="App">
+      <div className="App" id="app">
         <p className="cv">&#60;CV&#62;</p>
         <Main />
         <About />
@@ -21,7 +22,7 @@ function App() {
         <Skills />
         <Experiences />
         <p className="cv">&#60;/CV&#62;</p>
-        <footer>
+        <footer id="footer">
           by dand-code ©2021
       </footer>
       </div>

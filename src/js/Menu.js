@@ -1,4 +1,5 @@
 import '../style/menu.scss';
+import PDF from '../source/Dandara-CV.pdf';
 
 function Menu() {
 
@@ -9,6 +10,7 @@ function Menu() {
         btn.classList.toggle("toggle");
     }
 
+    const DandaraAlmeida_pdf = '../source/Dandara-CV.pdf'
     return (
         <div className="sidebar" id="sidebar">
             <ul>
@@ -17,7 +19,7 @@ function Menu() {
                 <li><a href="#skills">skills</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#experiences">work</a></li>
-                <li><a href="#header">contact</a></li>
+                <li><a href={PDF} download={DandaraAlmeida_pdf}>PDF</a></li>
             </ul>
             <button id="sidebar-btn" className="sidebar-btn" onClick={toggleSidebar}>
                 <span></span>

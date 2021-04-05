@@ -17,18 +17,18 @@ function Skills() {
         <div className="margin_elements">
           <h3>soft</h3>
           <ul className="list">
-            <li>&#8260;&#8260; Remote work</li>
-            <li>&#8260;&#8260; Comunication</li>
-            <li>&#8260;&#8260; Documentation</li>
-            <li>&#8260;&#8260; Team work</li>
+            <li>&#8260;&#8260; Trabajo remoto</li>
+            <li>&#8260;&#8260; Comunicación</li>
+            <li>&#8260;&#8260; Adaptabilidad</li>
+            <li>&#8260;&#8260; Trabajo en equipo</li>
           </ul>
         </div>
         <div className="margin_elements">
           <h3>language</h3>
           <ul className="list">
-            <li>&#8260;&#8260; Portuguese: native</li>
-            <li>&#8260;&#8260; Spanish: C1</li>
-            <li>&#8260;&#8260; English: A1</li>
+            <li>&#8260;&#8260; Portugués: nativa</li>
+            <li>&#8260;&#8260; Español: C1</li>
+            <li>&#8260;&#8260; Inglés: A1</li>
           </ul>
         </div>
       </div>

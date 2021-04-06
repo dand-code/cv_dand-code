@@ -24,7 +24,7 @@ function Skills() {
           </ul>
         </div>
         <div className="margin_elements">
-          <h3>language</h3>
+          <h3>languages</h3>
           <ul className="list">
             <li>&#8260;&#8260; Portugués: nativa</li>
             <li>&#8260;&#8260; Español: C1</li>

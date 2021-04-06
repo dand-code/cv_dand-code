@@ -11,7 +11,7 @@ function Experiences() {
           <li>
             &#8260;&#8260; Comunicación interna del equipo de Producto de Cabify para Latinoamérica y Europa (2018 - 2019).
               </li>
-          <li> &#8260;&#8260; Capacitaciones del equipo de soporte (2017 - 2018), en Easy Taxi.</li>
+          <li> &#8260;&#8260; Formación del equipo de soporte (2017 - 2018), en Easy Taxi.</li>
         </ul>
       </div>
       <div className="margin_elements">

@@ -5,6 +5,9 @@ function Projects() {
     <section id="projects">
       <h2 className="subtitle">projects</h2>
       <ul className="list">
+      <li>
+          <h4>&#8260;&#8260; Trividado <a className="link" href="https://github.com/dand-code/trivia-numbers">project</a> <a className="link" href="https://affectionate-hopper-ec48cd.netlify.app/#/">web</a></h4>
+        </li>
         <li>
           <h4>&#8260;&#8260; Searcher Rick And Morty <a className="link" href="https://github.com/dand-code/search_ricky-morty">project</a> <a className="link" href="https://beta.adalab.es/modulo-3-evaluacion-final-dand-code/#/">web</a></h4>
         </li>

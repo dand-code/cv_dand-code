@@ -28,7 +28,7 @@ function Skills() {
           <ul className="list">
             <li>&#8260;&#8260; Portugués: nativa</li>
             <li>&#8260;&#8260; Español: C1</li>
-            <li>&#8260;&#8260; Inglés: A1</li>
+            <li>&#8260;&#8260; Inglés: B2</li>
           </ul>
         </div>
       </div>

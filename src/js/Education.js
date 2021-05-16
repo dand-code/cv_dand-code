@@ -16,7 +16,7 @@ function Education() {
         </ul>
       </div>
       <div className="margin_elements">
-        <h3>Universidade Federal do Pará (Brazil)</h3>
+        <h3>Universidade Federal do Pará (Brasil)</h3>
         <ul className="list">
           <li>
             &#8260;&#8260; Graduada en Periodismo

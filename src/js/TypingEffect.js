@@ -4,7 +4,7 @@ import ReactTypingEffect from 'react-typing-effect';
 const TypingEffect = () => {
     return (
         <ReactTypingEffect
-            text={["HTML, CSS, Sass, JavaScript & React"]}
+            text={["HTML, CSS, JavaScript & React"]}
         />
 
     );

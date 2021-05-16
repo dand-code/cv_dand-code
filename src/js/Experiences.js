@@ -9,7 +9,7 @@ function Experiences() {
         <h4>Product Marketing (2017 - 2019)</h4>
         <ul className="list">
           <li>
-            &#8260;&#8260; Comunicación interna del equipo de Producto de Cabify para Latinoamérica y Europa (2018 - 2019).
+            &#8260;&#8260; Maquetación con HTML y CSS para comunicación interna y documentación técnica del equipo de Producto de Cabify para Latinoamérica y Europa. (2018 - 2019).
               </li>
           <li> &#8260;&#8260; Formación del equipo de soporte (2017 - 2018), en Easy Taxi.</li>
         </ul>

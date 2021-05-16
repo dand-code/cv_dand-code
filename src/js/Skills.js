@@ -8,10 +8,11 @@ function Skills() {
         <div className="margin_elements">
           <h3>technicals</h3>
           <ul className="list">
-            <li>&#8260;&#8260; HTML</li>
-            <li>&#8260;&#8260; CSS</li>
+            <li>&#8260;&#8260; HTML y CSS</li>
+            <li>&#8260;&#8260; Styled-components</li>
             <li>&#8260;&#8260; Javascript</li>
             <li>&#8260;&#8260; React</li>
+            <li>&#8260;&#8260; Jest</li>
           </ul>
         </div>
         <div className="margin_elements">

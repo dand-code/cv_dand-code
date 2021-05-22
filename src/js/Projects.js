@@ -3,7 +3,7 @@ import '../style/App.scss';
 function Projects() {
   return (
     <section id="projects">
-      <h2 className="subtitle">projects</h2>
+      <h2 className="subtitle">proyectos</h2>
       <ul className="list">
       <li>
           <h4>&#8260;&#8260; Trividado <a className="link" href="https://github.com/dand-code/trivia-numbers">project</a> <a className="link" href="https://affectionate-hopper-ec48cd.netlify.app/#/">web</a></h4>

@@ -3,7 +3,7 @@ import '../style/App.scss';
 function Experiences() {
   return (
     <section id="experiences">
-      <h2 className="subtitle">work experiences</h2>
+      <h2 className="subtitle">experiencias</h2>
       <div className="margin_elements">
         <h3>Cabify + Easy Taxi</h3>
         <h4>Product Marketing (2017 - 2019)</h4>
@@ -15,7 +15,7 @@ function Experiences() {
         </ul>
       </div>
       <div className="margin_elements">
-        <h3>Journalist</h3>
+        <h3>Periodista</h3>
         <ul className="list">
           <li>
             <h4>&#8260;&#8260; Jornal O liberal (2014 - 2017)</h4>

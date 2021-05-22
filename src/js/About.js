@@ -4,7 +4,7 @@ import '../style/App.scss';
 function About() {
   return (
     <section id="aboutme">
-      <h2 className="subtitle">about me </h2>
+      <h2 className="subtitle">sobre mí </h2>
       <p className="margin_elements">
         Soy desarrolladora front-end y periodista. Después de 10 años trabajando en las redacciones y prensas, descubrí mi verdadera pasión: la experiencia de usuarios y la programación.
       </p>

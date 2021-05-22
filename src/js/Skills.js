@@ -3,10 +3,10 @@ import '../style/App.scss';
 function Skills() {
   return (
     <section id="skills">
-      <h2 className="subtitle">skills</h2>
+      <h2 className="subtitle">habilidades</h2>
       <div className="wrap_skills">
         <div className="margin_elements">
-          <h3>technicals</h3>
+          <h3>técnicas</h3>
           <ul className="list">
             <li>&#8260;&#8260; HTML y CSS</li>
             <li>&#8260;&#8260; Styled-components</li>
@@ -16,7 +16,7 @@ function Skills() {
           </ul>
         </div>
         <div className="margin_elements">
-          <h3>soft</h3>
+          <h3>personal</h3>
           <ul className="list">
             <li>&#8260;&#8260; Trabajo remoto</li>
             <li>&#8260;&#8260; Comunicación</li>
@@ -25,7 +25,7 @@ function Skills() {
           </ul>
         </div>
         <div className="margin_elements">
-          <h3>languages</h3>
+          <h3>idiomas</h3>
           <ul className="list">
             <li>&#8260;&#8260; Portugués: nativa</li>
             <li>&#8260;&#8260; Español: C1</li>

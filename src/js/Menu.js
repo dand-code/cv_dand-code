@@ -2,31 +2,32 @@ import '../style/menu.scss';
 import PDF from '../source/Dandara-CV.pdf';
 
 function Menu() {
+    const DandaraAlmeida_pdf = '../source/Dandara-CV.pdf'
 
-    const toggleSidebar = () => {
-        const box = document.getElementById('sidebar');
-        box.classList.toggle("active");
-        const btn = document.getElementById('sidebar-btn');
-        btn.classList.toggle("toggle");
+    function openNav() {
+    document.getElementById("myNav").style.width = "100%";
     }
 
-    const DandaraAlmeida_pdf = '../source/Dandara-CV.pdf'
+    function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    }
     return (
-        <div className="sidebar" id="sidebar">
-            <ul>
-                <li><a href="#aboutme">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#experiences">work</a></li>
-                <li><a href={PDF} download={DandaraAlmeida_pdf}>PDF</a></li>
-            </ul>
-            <button id="sidebar-btn" className="sidebar-btn" onClick={toggleSidebar}>
-                <span></span>
-            </button>
-        </div>
-
-    );
+        <>
+            <div id="myNav" className="overlay">
+                <div className="closebtn" onClick={closeNav}>&times;</div>
+                <div className="overlay-content">
+                <a href="#aboutme" onClick={closeNav}>about</a>
+                <a href="#education" onClick={closeNav}>education</a>
+                <a href="#skills" onClick={closeNav}>skills</a>
+                <a href="#projects" onClick={closeNav}>projects</a>
+                <a href="#experiences" onClick={closeNav}>work</a>
+                <a href={PDF} download={DandaraAlmeida_pdf} onClick={closeNav}>PDF</a>
+                </div>
+            </div>
+            <span className="menuIcon" onClick={openNav}><i className="fa fa-bars" aria-hidden="true"></i></span>
+        </>
+    )      
 }
-
+ 
 export default Menu;
+

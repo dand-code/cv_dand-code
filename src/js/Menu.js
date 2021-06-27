@@ -16,12 +16,12 @@ function Menu() {
             <div id="myNav" className="overlay">
                 <div className="closebtn" onClick={closeNav}>&times;</div>
                 <div className="overlay-content">
-                <a href="#aboutme" onClick={closeNav}>about</a>
-                <a href="#education" onClick={closeNav}>education</a>
-                <a href="#skills" onClick={closeNav}>skills</a>
-                <a href="#projects" onClick={closeNav}>projects</a>
-                <a href="#experiences" onClick={closeNav}>work</a>
-                <a href={PDF} download={DandaraAlmeida_pdf} onClick={closeNav}>PDF</a>
+                    <a href="#aboutme" onClick={closeNav}>sobre mí</a>
+                    <a href="#projects" onClick={closeNav}>proyectos</a>
+                    <a href="#education" onClick={closeNav}>formación</a>
+                    <a href="#skills" onClick={closeNav}>habilidades</a>
+                    <a href="#experiences" onClick={closeNav}>experiencias</a>
+                    <a href={PDF} download={DandaraAlmeida_pdf} onClick={closeNav}>CV.pdf</a>
                 </div>
             </div>
             <span className="menuIcon" onClick={openNav}><i className="fa fa-bars" aria-hidden="true"></i></span>

@@ -17,8 +17,8 @@ function App() {
         <p className="cv">&#60;CV&#62;</p>
         <Main />
         <About />
-        <Education />
         <Projects />
+        <Education />
         <Skills />
         <Experiences />
         <p className="cv">&#60;/CV&#62;</p>

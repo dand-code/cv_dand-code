@@ -27,6 +27,13 @@
   color: $font_color_link;
 }
 
+.description{
+  font-weight: 200;
+}
+.description:last-of-type{
+  margin-bottom: 15px;
+}
+
 // Page
 .App {
   display: grid;
@@ -77,9 +84,9 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items:initial;
+  }
 }
 
-}
 @media all and (min-width: 768px){
   .App{
     padding-left: 100px;

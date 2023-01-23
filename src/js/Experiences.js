@@ -5,8 +5,20 @@ function Experiences() {
     <section id="experiences">
       <h2 className="subtitle">experiencias</h2>
       <div className="margin_elements">
+        <h3>Equinix</h3>
+        <h4>Software Engineer (Sep 2021 - Present)</h4>
+        <ul className="list">
+          <li> &#8260;&#8260; Desarrollo frontend: desde propuesta de maqueta hasta implementación con ReactJS y pruebas con Cypress.
+          </li>
+          <li> &#8260;&#8260;  Elaboración de documentación técnica.
+          </li>
+          <li> &#8260;&#8260;  Aprendiendo backend con Python, MySQL, y Docker.
+          </li>
+        </ul>
+      </div>
+      <div className="margin_elements">
         <h3>Cabify + Easy Taxi</h3>
-        <h4>Product Marketing (2017 - 2019)</h4>
+        <h4>Product Marketing (Jun 2017 -  Dic 2019)</h4>
         <ul className="list">
           <li>
             &#8260;&#8260; Maquetación con HTML y CSS para comunicación interna y documentación técnica del equipo de Producto de Cabify para Latinoamérica y Europa. (2018 - 2019).

@@ -9,19 +9,19 @@ function Skills() {
           <h3>técnicas</h3>
           <ul className="list">
             <li>&#8260;&#8260; HTML y CSS</li>
-            <li>&#8260;&#8260; Styled-components</li>
             <li>&#8260;&#8260; Javascript</li>
             <li>&#8260;&#8260; React</li>
-            <li>&#8260;&#8260; Jest</li>
+            <li>&#8260;&#8260; Cypress</li>
+            <li>&#8260;&#8260; Python</li>
           </ul>
         </div>
         <div className="margin_elements">
           <h3>personal</h3>
           <ul className="list">
-            <li>&#8260;&#8260; Trabajo remoto</li>
             <li>&#8260;&#8260; Comunicación</li>
-            <li>&#8260;&#8260; Adaptabilidad</li>
+            <li>&#8260;&#8260; Aprendizaje cotinuo</li>
             <li>&#8260;&#8260; Trabajo en equipo</li>
+            <li>&#8260;&#8260; Proactividad</li>
           </ul>
         </div>
         <div className="margin_elements">

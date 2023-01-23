@@ -5,7 +5,7 @@ function Education() {
     <section id="education">
       <h2 className="subtitle">formación</h2>
       <div className="margin_elements">
-        <h3>Adalab</h3>
+        <h3>Adalab (nov/2020 - mar/2021)</h3>
         <ul className="list">
           <li>
             &#8260;&#8260; Maquetación: HTML5, CSS3, Flexbox, CSS Grid, Sass, Bootstrap;</li>
@@ -16,7 +16,7 @@ function Education() {
         </ul>
       </div>
       <div className="margin_elements">
-        <h3>Universidade Federal do Pará (Brasil)</h3>
+        <h3>Universidade Federal do Pará - Brasil (fev/2007 - mar/2012 )</h3>
         <ul className="list">
           <li>
             &#8260;&#8260; Graduada en Periodismo

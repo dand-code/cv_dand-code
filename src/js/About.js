@@ -6,7 +6,7 @@ function About() {
     <section id="aboutme">
       {/* <h2 className="subtitle">sobre mí </h2> */}
       <h1 className="margin_elements description">
-      On a learning journey from journalist to developer and from bilingual 🇧🇷 🇪🇸 to trilingual 🇬🇧.
+      Siempre aprendiendo.  De periodista a desarrolladora web y de bilingüe 🇧🇷 🇪🇸 a trilingüe 🇬🇧.
       </h1>
     </section>
   );

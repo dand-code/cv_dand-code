@@ -11,8 +11,7 @@ function Education() {
             &#8260;&#8260; Maquetación: HTML5, CSS3, Flexbox, CSS Grid, Sass, Bootstrap;</li>
           <li> &#8260;&#8260; JavaScript y servicios web (APIs) de terceros;</li>
           <li> &#8260;&#8260; Control de versiones con Git;</li>
-          <li> &#8260;&#8260; Creación de SPAs sencillas con React;</li>
-          <li> &#8260;&#8260; Manejo de Slack, Trello, GitHub, Gulp, Terminal, Linter, Zeplin;</li>
+          <li> &#8260;&#8260; Creación de SPAs con React;</li>
         </ul>
       </div>
       <div className="margin_elements">

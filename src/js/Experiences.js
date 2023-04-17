@@ -12,7 +12,7 @@ function Experiences() {
           </li>
           <li> &#8260;&#8260;  Elaboración de documentación técnica.
           </li>
-          <li> &#8260;&#8260;  Aprendiendo backend con Python, MySQL, y Docker.
+          <li> &#8260;&#8260;  Aprendiendo backend con Python y Django.
           </li>
         </ul>
       </div>

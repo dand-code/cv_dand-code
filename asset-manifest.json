@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cv_dand-code/static/css/main.711c8ac5.chunk.css",
+    "main.js": "/cv_dand-code/static/js/main.0a964ba2.chunk.js",
+    "main.js.map": "/cv_dand-code/static/js/main.0a964ba2.chunk.js.map",
+    "runtime-main.js": "/cv_dand-code/static/js/runtime-main.10270f00.js",
+    "runtime-main.js.map": "/cv_dand-code/static/js/runtime-main.10270f00.js.map",
+    "static/js/2.12aa0d21.chunk.js": "/cv_dand-code/static/js/2.12aa0d21.chunk.js",
+    "static/js/2.12aa0d21.chunk.js.map": "/cv_dand-code/static/js/2.12aa0d21.chunk.js.map",
+    "index.html": "/cv_dand-code/index.html",
+    "static/css/main.711c8ac5.chunk.css.map": "/cv_dand-code/static/css/main.711c8ac5.chunk.css.map",
+    "static/js/2.12aa0d21.chunk.js.LICENSE.txt": "/cv_dand-code/static/js/2.12aa0d21.chunk.js.LICENSE.txt",
+    "static/media/Dandara-CV.acaaaf7c.pdf": "/cv_dand-code/static/media/Dandara-CV.acaaaf7c.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10270f00.js",
+    "static/js/2.12aa0d21.chunk.js",
+    "static/css/main.711c8ac5.chunk.css",
+    "static/js/main.0a964ba2.chunk.js"
+  ]
+}
